@@ -1,0 +1,119 @@
+video{
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+    top: 0%;
+    position: fixed;
+    right: 0%;
+    left: 0%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.top{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+}
+.top p{
+    font-weight: bolder;
+    color: white;
+    font-size: 1.3rem;
+}
+.icon{
+    color: white;
+    height: 35px;
+    width: 35px;
+    font-weight: bolder;
+}
+.active{
+    border-bottom: 6px solid white;
+}
+.action{
+    position: absolute;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-top: 200px; */
+    right: 5%;
+    bottom: 20%;
+}
+.icons{
+    height: 40px;
+    width: 40px;
+    color: white;
+    margin-top: 10px;
+}
+.num{
+    color: white;
+    text-align: center;
+    /* margin-left: -10px; */
+    margin-top: 0%;
+}
+.profile{
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    margin-left: -19px;
+    margin-bottom: 15px;
+}
+.follow{
+    height: 25px;
+    width: 25px;
+    color: red;
+    margin-left: -45px;
+    margin-bottom: 1px;
+    border-radius: 50%;
+    background-color: white;
+}
+.content{
+    position: absolute;
+    color: white;
+    width: 300px;
+    bottom: 15%;
+    margin-left: 10px;
+}
+.content p{
+    font-size: 1.2rem;
+}
+.music{
+    position: absolute;
+    color: white;
+    width: 100%;
+    display: flex;
+    bottom: 10%;
+    align-items: center;
+    justify-content: space-between;
+    left: 4%;
+}
+.music1{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 6%;
+    margin-bottom: 5%;
+}
+.footer{
+    bottom: 0%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ico{
+    height: 35px;
+    width: 35px;
+}
+.text{
+    text-align: center;
+    margin-top: 0px;
+}
